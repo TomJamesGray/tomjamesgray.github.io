@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 15:32:02 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cipher Crack</title>
+      <link>http://example.org/posts/cipher-crack/</link>
+      <pubDate>Thu, 02 Apr 2020 15:32:02 +0100</pubDate>
+      
+      <guid>http://example.org/posts/cipher-crack/</guid>
+      <description>I started this project while working on the Southampton university cipher challenge as I wanted an easy way of testing words my team and I thought were likely to be the passphrases, also I wanted the ability to leave this running over long periods of time in an attempt to brute force it by using a dictionary attack.
+The initial cipher text is decoded with a passphrase, either from a file of words (such as a dictionary) or from a predefined function, such as trying all possible words of length 6.</description>
+    </item>
+    
+  </channel>
+</rss>
