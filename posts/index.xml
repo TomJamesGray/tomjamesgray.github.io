@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Tom Gray</title>
+    <link>http://tomjgray.com/posts/</link>
+    <description>Recent content in Posts on Tom Gray</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2020 15:32:02 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 16:32:28 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tomjgray.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Prob Book</title>
+      <link>http://tomjgray.com/posts/prob-book/</link>
+      <pubDate>Thu, 02 Apr 2020 16:32:28 +0100</pubDate>
+      
+      <guid>http://tomjgray.com/posts/prob-book/</guid>
+      <description>For a long time I have been planning on making a calcualtor that allows users to easily define distributions and calculate probabilities in the classical maths notations, eg X~N(0,1) to define a standard normal distribution.
+I initially started of this project using the shunting yard algorithm to parse the user input that I have used in previous projects however as the project grew in complexity I decided to switch over to lark parser which made it incredibly easy to add new features as required such as booleans.</description>
+    </item>
+    
+    <item>
+      <title>Stat Analysis</title>
+      <link>http://tomjgray.com/posts/stat-analysis/</link>
+      <pubDate>Thu, 02 Apr 2020 16:30:03 +0100</pubDate>
+      
+      <guid>http://tomjgray.com/posts/stat-analysis/</guid>
+      <description>I wrote this using Kivy and Python for my A level computer science coursework, I chose this specific project because I felt that it would give me a good oportunity to further my understanding of statistical methods and user interface design.
+While the program certainly isn&amp;rsquo;t a fully fledged statistical tool kit it due to time constraints related to the A level course it is relatively easy to add in new components.</description>
+    </item>
+    
+    <item>
+      <title>Calculator Project</title>
+      <link>http://tomjgray.com/posts/calculator-project/</link>
+      <pubDate>Thu, 02 Apr 2020 16:27:15 +0100</pubDate>
+      
+      <guid>http://tomjgray.com/posts/calculator-project/</guid>
+      <description>This project has gone through many iterations as I initially used Tkinter, however as I learned and grew to quite enjoy kivy I ported it to kivy. Then as I learnt about reverse polish notation I rewrote the parsing of calculations using the shunting yard algorithm to learn more about how reverse polish is used, something which was challenging but enjoyable
+This calculator also has a graphing mode with support for animation through the use of variables which can be defined with limits and then set to gradually go from their minimum to their maximum, similar to that on desmos.</description>
+    </item>
+    
+    <item>
       <title>Cipher Crack</title>
-      <link>http://example.org/posts/cipher-crack/</link>
+      <link>http://tomjgray.com/posts/cipher-crack/</link>
       <pubDate>Thu, 02 Apr 2020 15:32:02 +0100</pubDate>
       
-      <guid>http://example.org/posts/cipher-crack/</guid>
+      <guid>http://tomjgray.com/posts/cipher-crack/</guid>
       <description>I started this project while working on the Southampton university cipher challenge as I wanted an easy way of testing words my team and I thought were likely to be the passphrases, also I wanted the ability to leave this running over long periods of time in an attempt to brute force it by using a dictionary attack.
 The initial cipher text is decoded with a passphrase, either from a file of words (such as a dictionary) or from a predefined function, such as trying all possible words of length 6.</description>
     </item>
