@@ -1,0 +1,17 @@
+baseURL = 'https://tomjamesgray.github.io/'
+languageCode = 'en'
+title = 'Tom Gray'
+theme = 'hugo-theme-texify'
+
+[author]
+name = "Tom Gray"
+
+[markup.highlight]
+style = "emacs"
+
+[params]
+description = "TODO"
+footnote = ""
+keywords = ["maths", "blog"]
+since = "2023"
+toc = true
